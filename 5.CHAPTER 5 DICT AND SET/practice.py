@@ -87,11 +87,17 @@
 
 
 studet = {
-    "name": ["hello","deepanshu"]
-}
+    # "name": ["hello","deepanshu"]
 
+    "1st": "deep",
+    "2nd":"yug",
+    "3rd": "yuv"}
 
-print(studet)
+studet.popitem()
 
-studet["name"][0] = "world"
-print(studet)
+print(studet.keys())
+# print(studet["sfsd"])
+print(studet.get("sfs"))
+
+# studet["name"][0] = "world"
+# print(studet)
